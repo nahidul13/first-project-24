@@ -1,0 +1,165 @@
+/* common part */
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* header part */
+.head-part {
+  background-image: url("../images/banner/banner1.png");
+  /* width: auto;
+  height: auto; */
+  /* flex-shrink: 0; */
+  margin-top: 0px;
+  background-repeat: no-repeat;
+}
+.banner-content {
+  padding: 216px 230px 166px 880px;
+}
+.banner-title {
+  color: #151414;
+  text-align: right;
+  font-size: 65px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.banner-description {
+  color: #444343;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 0px;
+}
+
+.head-button {
+  color: #fff;
+
+  font-size: 20px;
+  font-weight: 600;
+  background-color: coral;
+  border-style: none;
+  padding: 10px;
+  margin-left: 250px;
+  border-radius: 5%;
+}
+button:hover {
+  color: black;
+}
+/* main part style */
+main {
+  max-width: 1150px;
+  margin: 0px auto;
+}
+.failures-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 70px;
+  /* margin-bottom: px; */
+}
+.failures-content > img {
+  height: 898px;
+}
+.failures-div-title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+}
+.failure-div-descrption {
+  color: #444343;
+  width: 416px;
+  font-size: 16px;
+  font-weight: 400;
+}
+/* my plan section */
+.my-plan-heading {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 70px;
+}
+
+.plan-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.plan-item-heading {
+  color: #151414;
+
+  font-size: 30px;
+  font-weight: 700;
+}
+.plan-item-info {
+  color: #737272;
+
+  font-size: 25px;
+  font-weight: 500;
+}
+.plan-item {
+  text-align: center;
+}
+/* alwas div */
+
+.always-contain {
+  background-repeat: no-repeat;
+  width: 1140px;
+  height: 300px;
+  border-radius: 8px;
+  background-image: url("../images/watch.png");
+  margin: 130px 0px;
+}
+
+.always-head {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+}
+button {
+  font-size: 20px;
+  font-weight: 600;
+  background-color: white;
+  border-style: none;
+  padding: 10px;
+  border-radius: 5%;
+}
+.always-item {
+  padding: 59px 617px 59px 64px;
+}
+/* footer part */
+footer {
+  background-color: #151414;
+  width: 1600px;
+  height: 577px;
+  color: #fff;
+  display: flex;
+  padding: 130px 200px;
+  gap: 130px;
+  max-width: 1120px;
+}
+.first-contain-descrip {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.footer-container {
+  margin-right: 230px;
+}
+.f-input {
+  color: white;
+  border-color: white;
+  padding: 18px 35px;
+  border-radius: 5px;
+  background-color: #151414;
+}
+.f-button {
+  width: 170.106px;
+  height: 64px;
+  margin-top: 20px;
+  color: #f15b22;
+  font-size: 20px;
+  font-weight: 600;
+}
